@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 12px;
+            padding: 40px;
+            width: 350px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: 28px;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .container p {
+            color: #666666;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #00aaff;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-photo:hover {
+            transform: scale(1.05); /* Subtle zoom effect on hover */
+        }
+
+        .resume-btn {
+            background-color: #00aaff;
+            color: #ffffff;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .resume-btn:hover {
+            background-color: #0088cc;
+            transform: scale(1.05);
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            color: #00aaff;
+            font-size: 20px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #0088cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="/static/images/moin.jpg" alt="My Photo" class="profile-photo">
+        <h1>Moin Ahmed Zahir</h1>
+        <p>Hello, I'm Moin Ahmed Zahir. I am a programming enthusiast. I generally prefer Java and Python but am free to choose any language. I am a very friendly and helpful person. I am also a Tech enthusiast. I like reseacrching about new inventions and growth of technology.</p>
+        <a href="resume.html" class="resume-btn">View My Resume</a>
+        <div class="social-links">
+            <a href="https://github.com/MAZ275-code" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/moin-ahmed-zahir-942b20238/" target="_blank">LinkedIn</a>
+        </div>
+    </div>
+</body>
+</html>
